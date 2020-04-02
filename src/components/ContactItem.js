@@ -26,11 +26,4 @@ ContactItem.propTypes = {
   onClickDelete: PropTypes.func
 };
 
-// ContactItem.defaultProps = {
-//   name: "Anonymous",
-//   email: "null",
-//   phone: "+62 xx xxx xxx xxx",
-//   onClickDelete: () => {}
-// };
-
 export default ContactItem;
