@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
+import firebase from "firebase";
 
 import "../css/ContactItem.css";
+
+
 
 const ContactItem = ({ name, phone, email, onClickDelete }) => (
   <div className="ContactItem">
